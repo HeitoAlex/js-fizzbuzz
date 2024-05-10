@@ -18,8 +18,8 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 1 creare un ciclo for che stampi i numeri in console partendo da 1 aggiungendo ogni volta +1 al conteggio per stampare il numero seguente per arrivare a 100
 
-2 all'interno del ciclo porre la condizione che qualora il numero sia multiplo di 3 in console stampi “Fizz”
+2 all'interno del ciclo porre la condizione che qualora il numero sia multiplo di 3 (i % 3 === 0 ) in console stampi “Fizz”
 
-3 porre la condizione alternativa che qualora il numero sia multiplo di 5 in console stampi “Buzz”
+3 porre la condizione alternativa che qualora il numero sia multiplo di 5 (i % 5 === 0) in console stampi “Buzz”
 
-4 porre la condizione alternativa che qualora il numero sia multiplo di 3 e 5 in console stampi “FizzBuzz”
+4 porre la condizione alternativa che qualora il numero sia multiplo di 3 e 5 (i % 3 === 0 && i % 5 === 0) in console stampi “FizzBuzz”
