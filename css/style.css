@@ -1,0 +1,43 @@
+body{
+    font-family: Caveat, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+li{
+    margin: .5rem;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(20, 20, 230);
+    border: 2px solid violet;
+    border-radius: 15px;
+}
+
+.fizz{
+    background-image: url(../non-sento.png);
+    background-size: contain;
+    
+}
+
+.buzz{
+    background-image: url(../non-vedo.jpg);
+    background-size: contain;
+}
+
+.fizz-buzz{
+    background-image: url(../non-parlo.jpg);
+    background-size: contain;
+}
+
+.number{
+    background-color: coral;
+}
